@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { S3Client, ListObjectsCommand } from '@aws-sdk/client-s3'
 
 // Create an S3 client
